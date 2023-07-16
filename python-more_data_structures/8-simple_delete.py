@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 
 
-def multiply_by_2(a_dictionary):
+def simple_delete(a_dictionary, key=""):
     """
-    A function that returns a new dictionary
-    with all values multiplied by 2
+    A function that deletes a key in a dictionary.
     """
-    new_dict = {}
-    for key, value in a_dictionary.items():
-        new_dict.update({key: (value * 2)})
-    return new_dict
+    if key in a_dictionary:
+        del a_dictionary[key]
+    return a_dictionary
