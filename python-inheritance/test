@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-:sp tests/7-base_geometry.txt
 """defines class BaseGeomtry
 with public instance methods for area and integer validation"""
 
@@ -13,7 +12,4 @@ class BaseGeometry:
 
     def integer_validator(self, name, value):
         """validates integer"""
-        if type(value) is not int:
-            raise TypeError("{} must be an integer".format(name))
-        if value <= 0:
-            raise ValueError("{} must be greater than 0".format(name))
+        if type(:
