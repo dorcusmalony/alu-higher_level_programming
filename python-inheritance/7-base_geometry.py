@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-:sp tests/7-base_geometry.txt
-"""defines class BaseGeomtry
-with public instance methods for area and integer validation"""
+"""defines class BaseGeometry
+with public instance methods for area and ineger validation"""
 
 
 class BaseGeometry:
