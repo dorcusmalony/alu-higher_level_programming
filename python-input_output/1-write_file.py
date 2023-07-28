@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-'''a function that reads a text file and
-prints it out'''
+'''writes a string to a text file (UTF8) and
+returns the number of characters written'''
 
 
-def read_file(filename=""):
-    '''Reads the data from outside file '''
-    with open(filename, encoding="utf-8") as f:
-        read_data = f.read()
-        print(read_data, end="")
+def write_file(filename="", text=""):
+    '''function to write text to a file'''
+    with open(filename, 'w+') as f:
+        return f.write(text)
