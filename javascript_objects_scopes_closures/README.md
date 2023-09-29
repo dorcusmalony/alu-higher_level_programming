@@ -10,4 +10,8 @@ JavaScript - Objects, Scopes and Closures
 -[inheritance in javascript] https://intranet.aluswe.com/rltoken/Th0A8D0mEExeE9qo1XFFow
 -[closures] https://intranet.aluswe.com/rltoken/9F52IiWw4FZ6PMGRrtgX2Q
 -[this/self] https://intranet.aluswe.com/rltoken/-Ayad9P8LI0ONRYw5VNWTA
+<<<<<<< HEAD
 -[Modern js] https://intranet.aluswe.com/rltoken/U2KLIkOd64LaBPslo1Yv5w
+=======
+-[Modern js] https://intranet.aluswe.com/rltoken/U2KLIkOd64LaBPslo1Yv5w
+>>>>>>> 3b99358fca0c268db8b75a414c2761900e751e97
